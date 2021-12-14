@@ -1,0 +1,49 @@
+label{
+	padding-left: 20px;
+	cursor:pointer;
+}
+
+#check {
+	display:none;
+}
+
+#check + span{
+	width: 15px;
+	height: 15px;
+	border: 1px solid black;
+	border-radius: 25%;
+}
+
+#check + span:before{
+	content: '\2713';
+	padding: 0 3px;
+	opacity: 0;
+	color: #FF7F00;	
+	
+}
+
+#check:checked+span:before{
+	opacity: 1;
+}
+#check:checked+span{
+	border: 1px solid #FF7F00;	
+}
+
+ul {
+	list-style-type: none;
+}
+li {
+    margin-bottom: 32px; /* Расстояние снизу */
+	
+}
+h1{
+	padding-left: 60px;
+}
+body{
+	font-family: Arial;
+}
+
+ul>li{
+	font-size: 19px;
+}
+ 
